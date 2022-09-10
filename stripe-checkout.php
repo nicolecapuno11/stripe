@@ -35,7 +35,7 @@ $price = $stripe->prices->retrieve('price_1LgJsfJblQF3jJqWz4nOj6Zs',[]);
           <h5 style="text-align: left; margin-left: 50px; padding-top: 100px;"><?php echo strtoupper($price->currency); ?> <?php echo $price->unit_amount_decimal; ?></h5>
         </div>
       </div>
-      <form action="/my-product.php" method="POST">
+      <form action="my-product.php" method="POST">
         <button type="submit" id="checkout-button">Checkout</button>
       </form>
       </div>
